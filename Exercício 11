@@ -1,0 +1,20 @@
+Leia uma velocidade em m/s (metros por segundo) e apresente-a convertida em km/h
+(quilometros por hora). A fórmula de conversao é: K = M ∗ 3.6, sendo K a velocidade
+em km/h e M em m/s.
+
+
+#include <stdio.h>
+
+int main(){
+
+    float velocidade, convertida;
+    printf ("Entre com a velocidade em M/s:\n");
+    scanf ("%f", &velocidade);
+
+    convertida = velocidade*3.6;
+
+    printf ("A velocidade em Km/h eh: %.2f\n", convertida);
+
+
+    return 0;
+}
