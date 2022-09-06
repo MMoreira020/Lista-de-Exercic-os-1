@@ -1,0 +1,19 @@
+Leia uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.
+A formula de conversao é: F = C∗(9.0/5.0)+32.0, sendo F a temperatura em Fahrenheit
+e C a temperatura em Celsius.
+
+#include <stdio.h>
+
+int main(){
+
+    float temperatura, convertida;
+    printf ("Digite a temperatura em Celsius:\n");
+    scanf ("%f", &temperatura);
+
+    convertida = temperatura * (9.0/5.0)+32;
+
+    printf ("A temperatura convertida em Fahrenheit eh: %.2f\n", convertida);
+
+
+    return 0;
+}
