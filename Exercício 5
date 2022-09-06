@@ -1,0 +1,18 @@
+Leia um numero real e imprima a quinta parte deste número.
+
+#include <stdio.h>
+
+int main(){
+
+    float num, imprimir;
+    printf ("Entre com um numero:\n");
+    scanf ("%f", &num);
+
+    imprimir = num/5;
+
+    printf ("A quimta parte do numero digitado eh: %.2f\n", imprimir);
+
+
+
+    return 0;
+}
