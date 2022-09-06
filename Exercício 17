@@ -1,0 +1,21 @@
+Leia um valor de comprimento em centímetros e apresente-o convertido em polegadas.
+A formula de conversão é: P = C/2,54 , sendo C o comprimento em centímetros e P o
+comprimento em polegadas.
+
+
+
+#include <stdio.h>
+
+int main(){
+
+    float comprimento,convertida;
+    printf ("Digite o valor em centimetros:\n");
+    scanf ("%f", &comprimento);
+
+    convertida = comprimento/2.54;
+
+    printf ("O valor convertido em polegadas eh: %.2f", convertida);
+
+
+    return 0;
+}
